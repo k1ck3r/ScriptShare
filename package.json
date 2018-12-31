@@ -1,0 +1,23 @@
+{
+    "name": "ScriptShare",
+    "version": "1.0.0",
+    "description": "A simple script share",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [
+      "share",
+      "api"
+    ],
+    "author": "Sworder",
+    "license": "GPL-3.0",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "ejs": "^2.6.1",
+      "enmap": "^2.6.3",
+      "enmap-level": "^2.1.0",
+      "express": "^4.16.4"
+    }
+}
+  
