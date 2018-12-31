@@ -10,7 +10,6 @@
   <img src="https://i.imgur.com/daaMLNL.png" />
   <hr/>
   <h2>Documentation</h2>
-  <br/>
   <h4>Rooter</h4>
   <pre><code>https://scriptshare.tk/api/codes</code></pre>
   <br/>
