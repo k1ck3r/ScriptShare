@@ -13,12 +13,10 @@
   <h4>Rooter</h4>
   <pre><code>https://scriptshare.tk/api/codes</code></pre>
   <br/>
-  <br/>
   <h4>Request JSON</h4>
   <pre><code>https://scriptshare.tk/api/codes/:id</code></pre>
   <h4>Response</h4>
   <pre class="json"><code>{"name":"256de15bec6a8809e05f5a245329d01b","code":"{}","createdAt":1546194029194,"lastEditedAt":1546194029194}</code></pre>
-  <br/>
   <br/>
   <h4>Update Script</h4>
   <pre><code>PUT /api/codes/:id</code></pre>
