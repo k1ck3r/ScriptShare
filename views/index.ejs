@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+ ____                               __    ____    __                               ______  __  __     
+/\  _`\                  __        /\ \__/\  _`\ /\ \                             /\__  _\/\ \/\ \    
+\ \,\L\_\    ___   _ __ /\_\  _____\ \ ,_\ \,\L\_\ \ \___      __     _ __    __  \/_/\ \/\ \ \/'/'   
+ \/_\__ \   /'___\/\`'__\/\ \/\ '__`\ \ \/\/_\__ \\ \  _ `\  /'__`\  /\`'__\/'__`\   \ \ \ \ \ , <    
+   /\ \L\ \/\ \__/\ \ \/ \ \ \ \ \L\ \ \ \_ /\ \L\ \ \ \ \ \/\ \L\.\_\ \ \//\  __/  __\ \ \ \ \ \\`\  
+   \ `\____\ \____\\ \_\  \ \_\ \ ,__/\ \__\\ `\____\ \_\ \_\ \__/.\_\\ \_\\ \____\/\_\\ \_\ \ \_\ \_\
+    \/_____/\/____/ \/_/   \/_/\ \ \/  \/__/ \/_____/\/_/\/_/\/__/\/_/ \/_/ \/____/\/_/ \/_/  \/_/\/_/
+                                \ \_\                                                                 
+                                 \/_/                                                                                             
+//-->                                                                                                                                                                      
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="A simple script share">
+        <meta name="author" content="Sworder">
+        <title>ScriptShare</title>
+        <meta content="ScriptShare" property="og:title">
+        <meta content="www.scriptshare.tk" property="og:site_name" >
+        <link href="/assets/logo.png" rel="icon" type="image/x-icon">
+        <meta content="/assets/logo.png" property="og:image">
+        <meta content="A simple script share" property="og:description">
+        <meta name="devtime-site" content="www.scriptshare.tk">
+        <meta name="devtime-title" content="www.scriptshare.tk">
+        <meta name="theme-color" content="#FFFFFF">
+        <meta content="https://www.scriptshare.tk/">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="/css/codeMirror.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <form action="/api/codes" method="POST">
+            <div id="page-wrapper">
+                <h1 class="title" onclick="self.location.href='/'">{ScriptShare.tk}</h1>
+                <p>A simple script share</p>
+                <textarea id="code" name="code"></textarea> 
+                <br/>
+                <div class="wrap">
+                    <button type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+        <footer>
+            <p class="text-center"><strong class="title" onclick="self.location.href='/'">ScriptShare.tk</strong> © 2019 | <a href="/api/docs">API</a></p>
+        </footer>
+    </body>
+
+    <script src="/js/codeMirror.js"></script>
+    <script src="/js/javascript-hint.js"></script>
+    <script src="/js/javascript.js"></script>
+    <script src="/js/show-hint.js"></script>
+
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+            lineNumbers: true,
+            extraKeys: {"Ctrl-Space": "autocomplete"},
+            mode: {name: "javascript", globalVars: true}
+        });
+    </script>
+</html>
