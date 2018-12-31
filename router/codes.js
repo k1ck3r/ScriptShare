@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-const crypto = require("crypto");
 
 router.get("/:id", function(req, res) {
     if(!req.client.server.codes.get(req.params.id)) return res.redirect("/"); 
