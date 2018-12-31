@@ -1,4 +1,4 @@
-<h1><img src="https://scriptshare.tk/assets/logo.png" width="25px" />ScriptShare</h1>
+<h1><img src="https://scriptshare.tk/assets/logo.png" width="23px" />ScriptShare</h1>
 A simple script share
 <center>
   <h2>Create a script share</h2>
