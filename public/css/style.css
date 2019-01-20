@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 body {
-    margin: 0;
+    margin: 5px;
     font-family: 'Russo One', sans-serif;
 }
 
@@ -44,7 +44,7 @@ footer h4 {
   
 @media screen and (max-width: 700px) {
     #page-wrapper {
-        width: 100%;
+        width: unset !important;
         -moz-box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
         -webkit-box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
         box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
