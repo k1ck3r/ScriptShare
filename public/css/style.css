@@ -82,6 +82,11 @@ footer h4 {
     border: 2px solid #ccc;
 }
 
+.CodeMirror, .cm-s-default, .CodeMirror-scroll {
+    height: auto !important;
+    min-height: 320px !important;
+}
+
 .wrap {
     height: 100%;
     display: flex;
